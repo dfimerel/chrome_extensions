@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Coach's Pep Talk",
+    "version": "0.0.1",
+    "description": "Coach pops up to motivate you!",
+    "permissions": [],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["popup.js"],
+        "css": ["popup.css"]
+      }
+    ]
+  }
+  
